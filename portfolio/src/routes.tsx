@@ -1,4 +1,8 @@
-import { Home, Skills, Interest, About } from './pages';
+
+import Home from './pages/Home';
+import Skills from './pages/Skills';
+import Interest from './pages/Interest';
+import About from "./pages/About";
 import { Route, Routes } from 'react-router-dom';
 
 const AppRoutes = () => {
