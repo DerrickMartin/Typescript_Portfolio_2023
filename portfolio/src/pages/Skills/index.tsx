@@ -1,11 +1,11 @@
 import React from 'react';
 
-import Hero from '../../components/Skills/Hero';
+import SkillHero from '../../components/Skills/Hero';
 
 const Skills = () => {
     return (
       <div>
-        <Hero />
+        <SkillHero />
         <h1>Skills Page</h1>
         <p>More on my skills below!</p>
       </div>

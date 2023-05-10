@@ -1,7 +1,7 @@
 import React from 'react';
 import './Hero.css';
 
-const Hero: React.FC = () => {
+const SkillsHero: React.FC = () => {
   return (
     <section className="hero">
       <div className="hero-content">
@@ -12,4 +12,4 @@ const Hero: React.FC = () => {
   );
 };
 
-export default Hero;
+export default SkillsHero;
