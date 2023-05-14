@@ -1,5 +1,4 @@
 .hero {
-    background-color: #f2f2f2;
     padding: 50px;
     text-align: center;
   }
@@ -13,19 +12,36 @@
     font-size: 32px;
     color: #333;
   }
+  .dark-mode .hero h1 {
+    color: #c9c9c9;
+  }
   
   .hero p {
     font-size: 18px;
     color: #666;
     margin-bottom: 20px;
   }
+
+  .dark-mode .hero p {
+    color: #a3a3a3;
+  }
   
   .hero button {
     padding: 10px 20px;
     font-size: 18px;
-    background-color: #007bff;
+    background-color: #01a0db;
     color: #fff;
     border: none;
     border-radius: 5px;
   }
   
+
+  .dark-mode .hero{
+    background-color: #1f1f1f;
+    color: #e4e4e4;
+  }
+
+  .dark-mode .hero button {
+    background-color: #0758b0;
+    color: #eeeeee;
+  }
