@@ -2,6 +2,8 @@ import React from 'react';
 import { Link } from 'react-router-dom';
 import './navbar.css';
 
+import DmLogo from '../assets/dm-logo.svg';
+
 import ToggleMenu from './ThemeToggle';
 
 const Navbar: React.FC = () => {
@@ -9,7 +11,9 @@ const Navbar: React.FC = () => {
     <nav>
       <ul className="navbar">
         <li className="nav-item">
-          <Link to="/" className="nav-link">Home</Link>
+          <Link to="/" className="nav-link">
+          <img src={DmLogo} alt="DM Logo" />
+          </Link>
         </li>
         <li className="nav-item">
           <Link to="/skills" className="nav-link">Skills</Link>
