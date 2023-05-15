@@ -1,5 +1,54 @@
+:root {
+  --background-color: #ffffff;
+  --secondary-background-color: #e7e7e7; 
+  --text-color: #141414;
+  --secondary-color: #373737;
+}
 .dark-mode {
-    background-color: #1f1f1f;
-    color: #e4e4e4;
+    --background-color:#222222;
+    --secondary-background-color: #414141; 
+    --text-color: #ededed;
+    --secondary-color: #cecece;
+}
+.dark-mode body {
+  color: var(--text-color);
+  background-color: var(--background-color);
+}
+
+h1 {
+    color: var(--text-color);
+}
+.dark-mode h1 {
+  color: var(--text-color)
+}
+
+h2 h3 h4 h5 h6 {
+    color: var(--secondary-color);
+}
+  
+p {
+    color: var(--text-color);
+    margin-bottom: 20px;
+}
+
+.dark-mode p {
+    color: var(--text-color);
+}
+  
+
+  .dark-mode .hero{
+    background-color: var(--secondary-background-color);
+
+  }
+.dark-mode nav {
+  background-color: var(--background-color);
+}
+  .dark-mode .hero button {
+    background-color: #0758b0;
+    color: #eeeeee;
   }
 
+  .dark-mode .nav-link {
+    background-color: var(--background-color);
+    color: var(--text-color);
+  }

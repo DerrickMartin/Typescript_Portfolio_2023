@@ -27,7 +27,7 @@ export const ContactUs = () => {
 
   return (
     <div>
-      {!isOpen && <button onClick={openForm}>Open Form</button>}
+      {!isOpen && <button onClick={openForm}>Contact Me</button>}
       {isOpen && (
         <div className="form-overlay">
           <form ref={form} onSubmit={sendEmail} className="form-container">

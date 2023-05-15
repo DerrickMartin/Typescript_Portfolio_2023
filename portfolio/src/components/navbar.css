@@ -3,7 +3,7 @@
   justify-content: flex-start;
   list-style-type: none;
   margin: 0;
-  padding: 0;
+  padding: 10px;
 }
 
 .nav-item {
@@ -13,9 +13,5 @@
 .nav-link {
   text-decoration: none;
   font-weight: bold;
-}
-
-.dark-mode .nav-link {
-  background-color: #1f1f1f;
-  color: #e4e4e4;
+  color: var(--text-color);
 }

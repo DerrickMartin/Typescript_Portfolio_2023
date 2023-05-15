@@ -1,7 +1,5 @@
 import React from 'react';
 
-import {ContactUs} from '../../components/email';
-
 //HeroSection
 import Hero from '../../components/Home/Hero';
 
@@ -13,9 +11,6 @@ const Home = () => {
         <Hero />
         <h1>Home Page</h1>
         <p>Welcome to my website!</p>
-        <div>
-        <ContactUs />
-        </div>
       </div>
     );
   };
