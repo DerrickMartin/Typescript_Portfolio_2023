@@ -33,3 +33,14 @@
     color: red;
   }
 }
+
+
+@media (max-width: 768px) {
+  .navbar {
+    padding: .7rem;
+  }
+
+  .nav-item {
+    margin: .5rem 0.5 rem;
+  }
+}
