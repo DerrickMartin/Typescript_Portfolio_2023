@@ -1,17 +1,22 @@
 .hero {
     background-color: #f2f2f2;
-    padding: 50px;
     text-align: center;
+  
   }
   
   .heroContent {
-    max-width: 600px;
+    background-color: rgba(160, 211, 255, 0.2);
+    border-radius: 0.9rem;
+    max-width: 250rem;
+    height: 20rem;
     margin: 0 auto;
-    padding-inline: .8rem;
+    padding: .2rem .8rem .2rem .8rem;
+    align-items: center;
+    justify-content: center;
   }
   
   .hero h1 {
-    font-size: 2rem;
+    font-size: 1.8rem;
     color: #333;
   }
   
@@ -29,8 +34,20 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: rgb(207, 80, 80);
+    background-color: rgba(205, 243, 253, 0.3);
     border-radius: .8rem;
+    width: 32%;
+    height: 8rem;
+  }
+  .skillBox :hover {
+    cursor: pointer;
+  }
+  .skillSection {
+    transition: transform 0.3s ease;
+  }
+  
+  .skillSection.clicked {
+    transform: translateY(-1.5rem);
   }
   
   

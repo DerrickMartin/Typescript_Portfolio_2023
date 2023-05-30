@@ -1,17 +1,35 @@
 .navbar {
   display: flex;
-  justify-content: flex-start;
+  justify-content: center; /* Center the navigation links horizontally */
+  align-items: center; /* Center the navigation links vertically */
   list-style-type: none;
   margin: 0;
-  padding: 10px;
+  padding: 0.8rem;
 }
 
 .nav-item {
-  margin-right: 1rem;
+  margin: 0 1.8rem;
 }
 
 .nav-link {
   text-decoration: none;
   font-weight: bold;
+  font-size: 1.2rem;
   color: var(--text-color);
+}
+
+.nav-link:hover {
+  animation: myAnimation 0.3s forwards; /* Apply the animation on hover */
+}
+
+@keyframes myAnimation {
+  from {
+    /* Initial state of the animation */
+    color: var(--text-color);
+  }
+
+  to {
+    /* Final state of the animation */
+    color: red;
+  }
 }

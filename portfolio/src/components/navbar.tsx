@@ -12,7 +12,7 @@ const Navbar: React.FC = () => {
       <ul className="navbar">
         <li className="nav-item">
           <Link to="/" className="nav-link">
-          <img src={DmLogo} alt="DM Logo" style={{ width: '50px', height: '50px' }}/>
+          <img src={DmLogo} alt="DM Logo" style={{ width: '52px', height: '52px' }}/>
           </Link>
         </li>
         <li className="nav-item">
