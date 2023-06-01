@@ -13,6 +13,7 @@
     padding: .2rem .8rem .2rem .8rem;
     align-items: center;
     justify-content: center;
+    box-shadow: 0 .3rem .4rem rgba(0, 0, 0, 0.4);
   }
   
   .hero h1 {
@@ -31,6 +32,7 @@
   }
   
   .skillBox {
+    position: relative;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -38,6 +40,7 @@
     border-radius: .8rem;
     width: 32%;
     height: 8rem;
+    box-shadow: 0.3rem .3rem .4rem rgba(0, 0, 0, 0.4);
   }
   .skillBox :hover {
     cursor: pointer;
@@ -47,7 +50,30 @@
   }
   
   .skillSection.clicked {
-    transform: translateY(-1.5rem);
+    transform: translateY(2.9rem);
+  }
+  .python {
+    opacity: 0;
+    transition: opacity 0.3s ease;
+  }
+  
+  .visible {
+    opacity: 1;
   }
   
   
+  .skillBox p {
+    position: absolute;
+    left: 40%;
+    top: 1.3rem;
+    /* Add other styles as needed */
+  }
+  
+  @media (max-width: 968px) {
+    .skillBox p {
+      position: absolute;
+      left: 20%;
+      top: 1.3rem;
+      /* Add other styles as needed */
+    }
+  }
