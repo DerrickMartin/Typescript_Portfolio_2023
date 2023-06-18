@@ -1,5 +1,5 @@
 import React from "react";
-import HandTrackingProjects from './HandTrackingProjects';
+import HandTrackingProjects from './Projects/HandTrackingProjects';
 
 const HandTracking: React.FC = () => {
   return (

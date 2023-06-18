@@ -1,5 +1,5 @@
 import React from "react";
-import "./HandTrackingProjects.css";
+import './HandTrackingProjects.css';
 
 const HandTrackingProjects: React.FC = () => {
   return (
