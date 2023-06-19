@@ -1,6 +1,6 @@
 import React from "react";
 
-import 'MachineLearning.css';
+import './MachineLearning.css';
 import MachineLearningProjects from "./Projects/MachineLearningProjects";
 
 
