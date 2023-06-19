@@ -1,15 +1,15 @@
 /* Default styles for computers */
 #container {
-    width: 9.5rem;
-    height: 6.5rem;
+    width: 12rem;
+    height: 7rem;
     margin-left: 1rem;
     overflow-x: auto;
     white-space: nowrap;
   }
   
   .square {
-    width: 5.5rem;
-    height: 5.5rem;
+    width: 6.3rem;
+    height: 6.3rem;
     background-color: red;
     display: inline-block;
     margin-right: 0.5rem;
@@ -28,8 +28,8 @@
     }
   
     .square {
-      width: 3rem;
-      height: 3rem;
+      width: 4rem;
+      height: 4rem;
       background-color: red;
       display: inline-block;
       margin-right: 0.5rem;
@@ -49,8 +49,8 @@
     }
   
     .square {
-      width: 3rem;
-      height: 3rem;
+      width: 4.5rem;
+      height: 4.5rem;
       background-color: red;
       display: inline-block;
       margin-right: 0.5rem;
