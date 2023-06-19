@@ -16,6 +16,11 @@
     border-radius: 0.8rem;
     box-shadow: .15rem .2rem .25rem rgba(0, 0, 0, 0.5); 
   }
+  .caroselContainer {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+}
   
   /* Responsive styles for mobile devices */
   @media (max-width: 767px) {
