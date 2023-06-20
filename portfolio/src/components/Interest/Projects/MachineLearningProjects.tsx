@@ -1,5 +1,5 @@
 import React from "react";
-import './MachineLearningProjects.css';
+import './ProjectsStyle.css';
 import machineLearningSvg from '../../../assets/svgs/backend/ai_logo.svg';
 
 const MachineLearningProjects: React.FC = () => {
@@ -7,9 +7,9 @@ const MachineLearningProjects: React.FC = () => {
 
     <div className="caroselContainer">
         <img
+          className="svg"
           src={machineLearningSvg}
-          alt="Machine Learning"
-          style={{ width: '6rem', height: '6rem' }}/>
+          alt="Machine Learning"/>
       <div id="container">
         <div className="square"></div>
         <div className="square"></div>
