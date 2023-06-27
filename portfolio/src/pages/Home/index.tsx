@@ -2,7 +2,6 @@ import React from 'react';
 
 //HeroSection
 import Hero from '../../components/Home/Hero';
-import ReactPythonProjects from '../../components/Home/Projects/ReactPythonProjects';
 
 const Home = () => {
 
@@ -10,7 +9,6 @@ const Home = () => {
     return (
       <div>
         <Hero />
-        <ReactPythonProjects />
         
       </div>
     );
