@@ -7,7 +7,7 @@ const About = () => {
       <>
         <AboutHero />
         <div className='container'>
-          <h1>Self Taught, but Inspired by many..</h1>
+          <h1 className='title'>Self Taught, but Inspired by many..</h1>
           <p>Hey, Welcome my friends. This is a short introduction about me.</p>
           <p>I am a self taught Software Engineer, I spent most of my time learning from Youtube, Coursera, SoloLearn, Codecademy, and Linkedin Learning!</p>
           <p>Honestly these apps and websites are great to learn in organized ways for free and minimal pricing. They helped me learn diffrent sections of software, how each language can be awsome and allow me to learn more about whatever section intrigued my mind the most!</p>
