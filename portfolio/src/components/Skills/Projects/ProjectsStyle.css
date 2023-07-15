@@ -28,6 +28,31 @@
   width: 9rem;
   height: 9rem;
 }
+/* Project Module for computer devices */
+.opacityBackground {
+  z-index: 2;
+  background-color: rgba(11, 18, 19, 0.8);
+  width: 100vw;
+  height: 100vh;
+  top: 0em;
+  left: 0rem;
+  position: fixed;
+}
+.reactProject1 {
+  z-index: 3;
+  position: fixed;
+  top: 3rem;
+  left: 5rem;
+  width: 70vw;
+  height: 70vh;
+  background-color: red;
+  border-radius: 1rem;
+}
+.closeButton{
+  position: absolute;
+  right: .5rem;
+  top: .5rem;
+}
 /* Responsive styles for mobile devices */
 @media (max-width: 767px) {
   #container {

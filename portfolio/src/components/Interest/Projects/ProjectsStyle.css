@@ -1,7 +1,7 @@
 /* Default styles for computers */
 #container {
   width: 32rem;
-  height: 9rem;
+  height: 10rem;
   margin-left: 1.5rem;
   overflow-x: scroll;
   scroll-snap-type: x mandatory;
@@ -14,10 +14,19 @@
   height: 8rem;
   background-color: red;
   display: inline-block;
-  margin-right: 1rem;
   border-radius: 0.8rem;
   box-shadow: .15rem .2rem .25rem rgba(0, 0, 0, 0.5); 
   scroll-snap-align: center;
+  transition: width 0.3s, height 0.3s; 
+}
+
+.square:hover {
+  width: 15.2rem;
+  height: 10rem;
+}
+.square:hover,
+.square:focus {
+  transition-duration: 0.5s; /* Slow transition when un-hovering */
 }
 .caroselContainer {
   display: flex;
@@ -44,7 +53,6 @@
     height: 7rem;
     background-color: red;
     display: inline-block;
-    margin-right: 1rem;
     border-radius: 0.6rem;
     box-shadow: .15rem .2rem .25rem rgba(0, 0, 0, 0.5); 
     scroll-snap-align: center;
