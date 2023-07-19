@@ -18,8 +18,9 @@ const ReactProjects: React.FC = () => {
       <div id="container">
         <div className="square" onClick={handleClick}></div>
         {showModule && (
-        <div className="opacityBackground" onClick={handleClick}>
+       <div className="opacityBackground">  
         <div className="reactProject1">
+          
           <button className="closeButton" onClick={handleClick}>
             X
           </button>
