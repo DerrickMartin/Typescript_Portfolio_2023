@@ -10,6 +10,8 @@
 }
 
 .square {
+  position: relative;
+  top: .2rem;
   width: 14.7rem;
   height: 8rem;
   background-color: red;
@@ -22,7 +24,8 @@
 .caroselContainer {
   display: flex;
   flex-direction: row;
-  width: 100%;
+  width: 100vw;
+  height: 10rem;
 }
 .svg {
   width: 9rem;
@@ -39,7 +42,8 @@
   transform: translate(-50%, -50%);
   position: fixed;
 }
-.reactProject1 {
+.reactProject {
+  padding: .2rem;
   z-index: 3;
   position: fixed;
   top: 50%; 
